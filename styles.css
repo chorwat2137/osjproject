@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+:root {
+    scroll-behavior: smooth;
+    --accent-color: #00ff00;
+}
+body {
+    font-family: monospace;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    line-height: 1.6;
+}
+.content {
+    height: 100vh;
+    background-color: black;
+    margin: 0 50px;
+    box-shadow: 0 0 10px var(--accent-color);
+}
