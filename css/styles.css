@@ -82,6 +82,7 @@ fieldset.links legend {
     background-color: var(--accent-color);
     color: black;
     font-weight: bold;
+    margin: auto;
 }   
 li{
     color: var(--accent-color);
