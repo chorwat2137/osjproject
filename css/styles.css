@@ -47,7 +47,7 @@ br {
     font-size: 1.2em;
     border: 1px solid var(--accent-color);
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 10px 15px 10px;
 }
 
 footer {
@@ -72,4 +72,17 @@ nav {
     box-shadow: 0 0 10px var(--accent-color);
     border-radius: 10px;
 
+}
+
+fieldset.links legend {
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    color: black;
+    font-weight: bold;
+}   
+li{
+    color: var(--accent-color);
 }
